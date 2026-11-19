@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patinhas do Cerrado — Adoção de Animais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header>
+    <h1>Patinhas do Cerrado</h1>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#destaques" aria-current="page">Para Adoção</a></li>
+        <li><a href="#tabela-porte">Portes e Cuidados</a></li>
+        <li><a href="#contato">Adotar / Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="layout-principal">
+    <main id="conteudo">
+      <section id="destaques" aria-labelledby="titulo-destaques">
+        <h2 id="titulo-destaques">Animais em Destaque</h2>
+
+        <article>
+          <h3>Pipoca (Cão sem raça definida)</h3>
+          <figure>
+            <img src="img/pipoca.jpg" alt="Cachorro caramelo de porte médio sorrindo no gramado" width="320" height="200">
+            <figcaption>Pipoca tem 2 anos e já está castrado.</figcaption>
+          </figure>
+          <p>Muito dócil e ideal para casas com quintal. <strong>Vacinado</strong> e vermifugado.</p>
+          <p>Disponível desde <time datetime="2026-11-10">10 de novembro de 2026</time>.</p>
+        </article>
+
+        <article>
+          <h3>Luna (Gata Frajola)</h3>
+          <figure>
+            <img src="img/luna.jpg" alt="Gata preta e branca de olhos verdes deitada em uma almofada" width="320" height="200">
+            <figcaption>Luna tem 8 meses e adora brincar.</figcaption>
+          </figure>
+          <p>Perfeita para apartamentos telados. É muito carinhosa e <em>adora</em> cochilar ao sol.</p>
+          <p>Disponível desde <time datetime="2026-11-12">12 de novembro de 2026</time>.</p>
+        </article>
+
+        <article>
+          <h3>Thor (Cão porte pequeno)</h3>
+          <figure>
+            <img src="img/thor.jpg" alt="Cachorro pequeno de pelagem escura com coleira azul" width="320" height="200">
+            <figcaption>Thor tem 4 anos e é muito companheiro.</figcaption>
+          </figure>
+          <p>Calmo e educado para passeios na guia. <strong>Ótimo para idosos</strong> ou famílias tranquilas.</p>
+          <p>Disponível desde <time datetime="2026-11-15">15 de novembro de 2026</time>.</p>
+        </article>
+      </section>
+
+      <section id="tabela-porte" aria-labelledby="titulo-tabela">
+        <h2 id="titulo-tabela">Guia Rápido de Adoção</h2>
+        <table>
+          <caption>Necessidades básicas por perfil de animal</caption>
+          <thead>
+            <tr>
+              <th scope="col">Perfil</th>
+              <th scope="col">Espaço Ideal</th>
+              <th scope="col">Nível de Energia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Cão Porte Pequeno</th>
+              <td>Apartamento ou Casa</td>
+              <td>Moderado</td>
+            </tr>
+            <tr>
+              <th scope="row">Cão Porte Médio/Grande</th>
+              <td>Casa com quintal</td>
+              <td>Alto</td>
+            </tr>
+            <tr>
+              <th scope="row">Gato Adulto</th>
+              <td>Apartamento telado</td>
+              <td>Baixo a Moderado</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contato" aria-labelledby="titulo-contato">
+        <h2 id="titulo-contato">Quero Adotar</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Seus dados de interesse</legend>
+
+            <label for="nome">Nome completo</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required>
+
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+
+            <label for="animal">Animal de interesse</label>
+            <input id="animal" name="animal" type="text" placeholder="Ex: Pipoca">
+
+            <label for="visita">Data preferida para visita</label>
+            <input id="visita" name="visita" type="date">
+          </fieldset>
+          <button type="submit">Enviar interesse</button>
+        </form>
+      </section>
+    </main>
+
+    <aside aria-label="Requisitos para adoção">
+      <h2>Antes de Adotar</h2>
+      <ul>
+        <li>Apresente documento com foto e comprovante de residência.</li>
+        <li>Janelas de apartamentos devem possuir redes de proteção.</li>
+        <li>A adoção é um compromisso para toda a vida do animal.</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <address>
+      Contato da ONG: <a href="anabeatriz.faria@estudante.iftm.edu.br">anabeatriz.faria@estudante.iftm.edu.br</a> — Uberaba, MG
+    </address>
+    <p><small>&copy; 2026 · Projeto da disciplina Linguagem de Script para Web</small></p>
+  </footer>
+</body>
+</html>
