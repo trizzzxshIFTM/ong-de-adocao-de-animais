@@ -1,4 +1,4 @@
-# ONG-de-ado-o-de-animais
+# ONG-de-adocao-o-de-animais
 # Patinhas do Cerrado — Adoção de Animais
 
 Projeto desenvolvido por **Ana Beatriz Farias Silva**, aluna do **2.º período de Análise e Desenvolvimento de Sistemas (ADS)**, para a disciplina **Linguagem de Script para Web** — **Instituto Federal do Triângulo Mineiro (IFTM)**, Campus Uberaba Parque Tecnológico.
