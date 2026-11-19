@@ -1,11 +1,12 @@
 # ONG-de-adocao-o-de-animais
-# Patinhas do Cerrado — Adoção de Animais
+
+## Patinhas do Cerrado — Adoção de Animais
 
 Projeto desenvolvido por **Ana Beatriz Farias Silva**, aluna do **2.º período de Análise e Desenvolvimento de Sistemas (ADS)**, para a disciplina **Linguagem de Script para Web** — **Instituto Federal do Triângulo Mineiro (IFTM)**, Campus Uberaba Parque Tecnológico.
 
 ## Tema Escolhido
 
-**Patinhas do Cerrado — Adoção de Animais** (`cd`, `ls`, `chmod`, `pwd`, `mkdir`? Não — divulgação e adoção responsável de cães e gatos resgatados, com destaque para Pipoca, Luna e Thor, guia de porte/energia e formulário de interesse em adoção).
+**Patinhas do Cerrado — Adoção de Animais**: divulgação e adoção responsável de cães e gatos resgatados, com destaque para Pipoca, Luna e Thor, guia de porte/energia e formulário de interesse em adoção.
 
 ## O que foi feito na Atividade 1
 
