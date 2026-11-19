@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+.pular {
+  position: absolute;
+  left: -9999px;
+  background: #0a971f;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.pular:focus {
+  left: 1rem;
+  top: 1rem;
+}
+
+header, footer {
+  background-color: #0a971f;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+header a, footer a {
+  color: #fff;
+}
+
+.layout-principal {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section, aside {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+}
+
+article {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #eef5ed;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input, button {
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #0a971f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .layout-principal {
+    grid-template-columns: 1fr;
+  }
+}
