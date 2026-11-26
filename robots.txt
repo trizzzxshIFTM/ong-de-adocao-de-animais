@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trizzzxshiftm.github.io/ong-de-adocao-de-animais/sitemap.xml
